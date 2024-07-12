@@ -38,13 +38,7 @@ Ensure these tools are installed and accessible via the command line before runn
 
    - The pipeline will generate `sorted_reads.bam` (sorted BAM file), `raw_variants.vcf` (raw variants), and `filtered_variants.vcf` (filtered variants) in the specified output directory.
 
-## Example
 
-For a quick test with example data included in this repository:
-
-```bash
-./variant_calling_pipeline.sh -r example_data/reference.fa -1 example_data/read1.fq -2 example_data/read2.fq -o output
-```
 
 ## Contributing
 
